@@ -62,11 +62,14 @@ header{
     align-items: center;
     justify-content: flex-end;
 }
-.h-right  ul  li{
+.h-right > ul > li{
     margin-left: 20px;
     font-size: 18px;
     font-weight: 500;
     color: #0B0223;
+}
+#follow li{
+    margin: 0 10px;
 }
 .h-right  ul  li a{
     font-size: 18px;
