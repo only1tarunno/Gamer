@@ -52,7 +52,7 @@
         margin: 10px 0;
         font-size: 36px;
     }
-    .b-content h2 {
+ h2 {
         font-size: 24px;
     }
     .b-right {
@@ -60,42 +60,23 @@
     }
     .banner-img {
         margin: auto;
+    }
+    .g-inner{
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .online-game {
+        padding: 30px 20px;
     }
   
 }
 /*------------------------------------------------------------------------------------- mobile device-------------------------------------------------------------------------------------- */
 @media (max-width: 575px) {
-    .banner {
-        padding: 0px 20px;
-        justify-content: center;
-        flex-direction: column-reverse;
-        background-image: none;
-        margin-top: 20px;
+    .g-inner{
+        grid-template-columns: repeat(1,1fr);
     }
-    .b-left {
-        width: 100%;
-        background-image: url(../images/banner-bg.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 50px 0 80px;
-        margin-top: 40px;
+    .online-game {
+        padding: 30px 20px;
     }
-    .b-content {
-        margin: 0;
-        text-align: center;
-    }
-    .b-content h1 {
-        margin: 10px 0;
-        font-size: 36px;
-    }
-    .b-content h2 {
-        font-size: 24px;
-    }
-    .b-right {
-        width: 100%;
-    }
-    .banner-img {
-        margin: auto;
-    }
+
 }
