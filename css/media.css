@@ -105,6 +105,9 @@
     .button1{
         width: 30%;
     }
+    .f-menu ul li {
+        margin: 0 10px;
+    }
   
 }
 /*------------------------------------------------------------------------------------- mobile device-------------------------------------------------------------------------------------- */
@@ -147,6 +150,26 @@
         width: 30px;
         height: 30px;
         margin-right: 5px;
-       }
-
+    }
+    footer {
+        padding: 60px 20px;
+    }
+    .f-menu{
+        margin: 35px 0 35px;
+    }
+    .f-menu ul {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .f-menu ul li {
+        margin: 0;
+        width: 30%;
+    }
+    #social-icon ul li{
+        margin: 0;
+    }
+    #f-menu ul li {
+        margin: 0;
+        width: 49%;
+    }
 }
