@@ -64,6 +64,75 @@ header{
     background-color: #E7E6E9;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 5px 10px 0px #00000077;
+    box-shadow: 0 5px 10px 0px #ddd;
 }
 /* banner start here */
+.banner{
+    padding: 0px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../images/banner-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 768px;
+}
+.b-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.b-content{
+    width: 100%;
+    margin: 0 150px 0 50px;
+}
+.b-content h1{
+    font-size: 95px;
+    font-weight: 700;
+    background: #F948B2;
+    background: linear-gradient(to top, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.b-content h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+.b-content p{
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 400;
+    color: #0B0223;
+}
+.banner-btn{
+    margin-top: 30px;
+}
+.btn{
+    margin-right: 20px;
+    padding: 12px 30px;
+    background-color: #FF42A5;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.cs-btn{
+    padding: 12px 30px;
+    background-color: #4EC5F7;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.b-right{
+    width: 50%;
+}
+.banner-img{
+    width: 90%;
+    margin-left: auto;
+}
+.banner-img img{
+    width: 100%;
+}
