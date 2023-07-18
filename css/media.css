@@ -1,0 +1,36 @@
+
+@media (max-width: 991px) {
+  
+}
+/*------------------------------------------------------------------------------- Tablet device ---------------------------------------------------------------------------------------- */
+@media (max-width: 840px) {
+    header{
+        box-shadow: none;
+    }
+    header {
+        padding: 20px 0px;
+        flex-direction: column;
+    }
+    .h-left {
+        justify-content: center;
+    }
+    .h-right > ul{
+        flex-direction: column;
+    }
+    .h-right > ul > li{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #follow{
+        width: 250px;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+}
+/*------------------------------------------------------------------------------------- mobile device-------------------------------------------------------------------------------------- */
+@media (max-width: 575px) {
+   
+}
