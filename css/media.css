@@ -68,6 +68,43 @@
     .online-game {
         padding: 30px 20px;
     }
+    .play {
+        padding: 30px 20px 90px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .p-left{
+        grid-row: 2;
+    }
+    .p-right{
+        grid-row: 1;
+        text-align: center;
+    }
+    .play-img1{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .play-img1 img{
+        width: 100%;
+    }
+    .play-img2{
+        width: 250px;
+        bottom: -80px;
+        right: 50px;
+    }
+    .play-img2 img{
+        width: 100%;
+    }
+    .button {
+        padding: 30px 20px;
+    }
+    .button-inner {
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .button1{
+        width: 30%;
+    }
   
 }
 /*------------------------------------------------------------------------------------- mobile device-------------------------------------------------------------------------------------- */
@@ -78,5 +115,38 @@
     .online-game {
         padding: 30px 20px;
     }
+    .p-right h2{
+        width: 200px;
+        margin: 0 auto 15px;
+    }
+    .play-img1{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .play-img2{
+        width: 150px;
+        bottom: -80px;
+        right: 0;
+    }
+    .button {
+        padding: 30px 20px;
+    }
+    .button-inner {
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .button1{
+        width: 48%;
+    }
+    .button1 a{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 5px;
+    }
+    .button1 a img{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+       }
 
 }
