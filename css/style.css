@@ -166,9 +166,78 @@ header{
 .g-img{
     width: 100%;
     margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.g-img::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background-color: #000;
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.g-img:hover::before {
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
 }
 .g-img img{
      width: 100%;
+     display: block;
+}
+.what-1 {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+    width: 63%;
+    text-align: center;
+}
+
+.g-img:hover .what-1 {
+    opacity: 1;
+    bottom: 36%;
+    cursor: pointer;
+}
+
+.what-1 h1 {
+    color: #FF42A5;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s all ease-in-out;
+}
+
+.what-1 h1:hover {
+    color: #eb259c;
+}
+
+.what-2 {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.what-2:hover{
+    color: #FF42A5;
+}
+.g-img:hover .what-2 {
+    opacity: 1;
+    top: 45%;
+
 }
 /* play game start here  */
 .play{
